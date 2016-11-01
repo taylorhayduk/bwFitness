@@ -1,0 +1,36 @@
+{
+  "name": "bwfitness",
+  "version": "1.0.0",
+  "description": "Body Weight Fitness Tracker for Reddit's Recommended Routine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorhayduk/bwFitness.git"
+  },
+  "keywords": [
+    "Body",
+    "Weight",
+    "Fitness",
+    "Tracker",
+    "for",
+    "Reddit's",
+    "Recommended",
+    "Routine"
+  ],
+  "author": "Taylor Hayduk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorhayduk/bwFitness/issues"
+  },
+  "homepage": "https://github.com/taylorhayduk/bwFitness#readme",
+  "dependencies": {
+    "good": "^7.0.2",
+    "good-console": "^6.3.1",
+    "good-squeeze": "^5.0.0",
+    "hapi": "^15.2.0",
+    "inert": "^4.0.2"
+  }
+}
