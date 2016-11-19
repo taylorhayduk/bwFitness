@@ -29,6 +29,14 @@ server.route({
     }
 });
 
+server.route({
+    method: 'GET',
+    path: '/bundle.js',
+    handler: function (request, reply) {
+        reply.file('./public/bundle.js');
+    }
+});
+
 server.register({
     register: Good,
     options: {
