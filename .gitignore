@@ -6,3 +6,4 @@ node_modules
 **/generated/_icons.sass
 npm-debug.log
 public/bundle.js
+public/ionicCreatorApp(referenceOnly)

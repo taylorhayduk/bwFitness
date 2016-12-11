@@ -1,0 +1,14 @@
+var template = `
+
+<button ui-sref="about">Finished Stretching</button>
+<button ng-click="$ctrl.selectAll()">Select All</button>
+<ul>
+  <li ng-repeat="stretch in $ctrl.stretches">
+    <input type="checkbox" ng-model="stretch.complete">
+    {{stretch.name}} <a href="{{stretch.link}}">?</a>
+  </li>
+</ul>
+
+`;
+
+module.exports = template;

@@ -28,6 +28,7 @@
   "homepage": "https://github.com/taylorhayduk/bwFitness#readme",
   "dependencies": {
     "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
     "css-loader": "^0.25.0",
     "good": "^7.0.2",
     "good-console": "^6.3.1",
